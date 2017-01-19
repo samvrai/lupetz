@@ -40,10 +40,10 @@ public class Main {
         String path = scanner.nextLine();
         System.out.println("Reemplazar en otra carpeta: s/n");
         String aux = scanner.nextLine();
-        System.out.println("Configurar:");
+        System.out.println("Configurar?: s/n");
         String del = scanner.nextLine();
         if (del.equals("s")) {
-            System.out.println("Tipo de documento:");
+            System.out.println("Tipo de documento: E/P/...");
             String type = scanner.nextLine().toUpperCase();
             System.out.println("Aplicacion:");
             String app = scanner.nextLine().toUpperCase();
